@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIDisplay-Bold.ttf">
+            <string>SFUIDisplay-Bold</string>
+        </array>
+        <array key="SFUIDisplay-Regular.ttf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieTableViewCell" rowHeight="157" id="KGk-i7-Jjw" customClass="MovieTableViewCell" customModule="DarynCinema" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="157"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pkz-KH-LlG">
+                        <rect key="frame" x="10" y="10" width="105" height="137"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="137" id="5TQ-Jm-Ybs"/>
+                            <constraint firstAttribute="width" constant="105" id="aQp-Dm-JVb"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSu-bb-hu0">
+                        <rect key="frame" x="136" y="10" width="240" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="fOh-xZ-7iG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="21"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kW-Xm-uqY">
+                        <rect key="frame" x="136" y="70" width="220" height="66"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="WSu-bb-hu0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="1Jx-ec-1qO"/>
+                    <constraint firstItem="8kW-Xm-uqY" firstAttribute="top" secondItem="WSu-bb-hu0" secondAttribute="bottom" id="72i-T6-TUS"/>
+                    <constraint firstItem="WSu-bb-hu0" firstAttribute="leading" secondItem="pkz-KH-LlG" secondAttribute="trailing" constant="21" id="7LM-5u-Wi4"/>
+                    <constraint firstItem="pkz-KH-LlG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="92l-xI-bcu"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="8kW-Xm-uqY" secondAttribute="trailing" constant="10" id="Z0C-CI-8nK"/>
+                    <constraint firstItem="pkz-KH-LlG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="fcU-3K-4i1"/>
+                    <constraint firstItem="pkz-KH-LlG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="iS6-MN-pdB"/>
+                    <constraint firstAttribute="trailing" secondItem="WSu-bb-hu0" secondAttribute="trailing" constant="10" id="jMn-jz-hkj"/>
+                    <constraint firstAttribute="bottom" secondItem="pkz-KH-LlG" secondAttribute="bottom" constant="10" id="oGp-S8-mqp"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8kW-Xm-uqY" secondAttribute="bottom" constant="10" id="oge-Un-Acp"/>
+                    <constraint firstItem="8kW-Xm-uqY" firstAttribute="leading" secondItem="pkz-KH-LlG" secondAttribute="trailing" constant="21" id="rLi-zR-iLa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="moviePosterImageView" destination="pkz-KH-LlG" id="a4Y-Q6-NMb"/>
+                <outlet property="movieTitleLabel" destination="WSu-bb-hu0" id="Lbc-5l-qU8"/>
+                <outlet property="movieYearLabel" destination="8kW-Xm-uqY" id="06C-pt-TlL"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="161.04910714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

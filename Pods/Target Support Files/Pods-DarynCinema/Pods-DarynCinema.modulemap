@@ -1,0 +1,6 @@
+module Pods_DarynCinema {
+  umbrella header "Pods-DarynCinema-umbrella.h"
+
+  export *
+  module * { export * }
+}
