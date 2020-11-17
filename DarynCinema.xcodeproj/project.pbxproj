@@ -28,6 +28,7 @@
 		382CC92E253AE77F00054BFB /* Details2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382CC92D253AE77F00054BFB /* Details2ViewController.swift */; };
 		382CC930253B228E00054BFB /* SFUIDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 382CC92F253B228D00054BFB /* SFUIDisplay-Bold.ttf */; };
 		382CC932253B23A900054BFB /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 382CC931253B23A800054BFB /* SFUIDisplay-Regular.ttf */; };
+		38AFDB6C256370D6006B5A06 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AFDB6B256370D6006B5A06 /* ExampleViewController.swift */; };
 		7F96096065491AB0C833F9FD /* libPods-DarynCinema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A94BAB387A499F80CFF07251 /* libPods-DarynCinema.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		382CC92D253AE77F00054BFB /* Details2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details2ViewController.swift; sourceTree = "<group>"; };
 		382CC92F253B228D00054BFB /* SFUIDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		382CC931253B23A800054BFB /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		38AFDB6B256370D6006B5A06 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		3A91D8092CBE19BAEFCBE3DC /* Pods-DarynCinema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarynCinema.release.xcconfig"; path = "Target Support Files/Pods-DarynCinema/Pods-DarynCinema.release.xcconfig"; sourceTree = "<group>"; };
 		A759D2263002BC59F33D79BD /* Pods-DarynCinema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarynCinema.debug.xcconfig"; path = "Target Support Files/Pods-DarynCinema/Pods-DarynCinema.debug.xcconfig"; sourceTree = "<group>"; };
 		A94BAB387A499F80CFF07251 /* libPods-DarynCinema.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DarynCinema.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +154,7 @@
 				382CC92D253AE77F00054BFB /* Details2ViewController.swift */,
 				382CC92F253B228D00054BFB /* SFUIDisplay-Bold.ttf */,
 				382CC931253B23A800054BFB /* SFUIDisplay-Regular.ttf */,
+				38AFDB6B256370D6006B5A06 /* ExampleViewController.swift */,
 			);
 			path = DarynCinema;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 			files = (
 				3826EA4B2539B38100A079B4 /* ProfileViewController.swift in Sources */,
 				3826EA4D2539C1D800A079B4 /* SearchViewController.swift in Sources */,
+				38AFDB6C256370D6006B5A06 /* ExampleViewController.swift in Sources */,
 				3826EA562539DD0700A079B4 /* MovieTableViewCell.swift in Sources */,
 				3826EA5D253A138D00A079B4 /* Details1ViewController.swift in Sources */,
 				3826EA1B2539856400A079B4 /* ViewController.swift in Sources */,
