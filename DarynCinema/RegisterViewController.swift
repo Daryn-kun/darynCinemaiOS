@@ -8,9 +8,10 @@
 
 import UIKit
 import Alamofire
-
+import RealmSwift
 class RegisterViewController: UIViewController {
     
+    @IBOutlet weak var userFullNameTextField: UITextField!
     @IBOutlet weak var userEmailTxtField: UITextField!
     @IBOutlet weak var userPasswordTxtField: UITextField!
     @IBOutlet weak var confirmPasswordTxtField: UITextField!
@@ -25,13 +26,14 @@ class RegisterViewController: UIViewController {
     
     
     @IBAction func registerButtonTapped(_ sender: Any) {
+        let userFullName = userFullNameTextField.text
         let userEmail = userEmailTxtField.text
         let userPassword = userPasswordTxtField.text
         let userConfirmPassword = confirmPasswordTxtField.text
         
         
         // Check for empty fields
-        if(userEmail!.isEmpty || userPassword!.isEmpty || userConfirmPassword!.isEmpty){
+        if(userFullName!.isEmpty || userEmail!.isEmpty || userPassword!.isEmpty || userConfirmPassword!.isEmpty){
             //Display alert message
             displayAlertMessage(userMessage: "All fiels are required")
             return
@@ -41,8 +43,8 @@ class RegisterViewController: UIViewController {
             displayAlertMessage(userMessage: "Password do not match")
             return
         }
-        
         // Store data
+        UserDefaults.standard.set(userFullName, forKey: "userFullName")
         UserDefaults.standard.set(userEmail, forKey: "userEmail")
         UserDefaults.standard.set(userPassword, forKey: "userPassword")
         UserDefaults.standard.synchronize()
@@ -63,6 +65,13 @@ class RegisterViewController: UIViewController {
                 myAlert.addAction(okAction)
                 self.present(myAlert, animated: true, completion: nil)
                 print("Your post \(response)")
+                let newUser = User()
+                newUser.fullName = userFullName
+                newUser.userEmail = userEmail
+                newUser.userPassword = userPassword
+                try! realm.write{
+                    realm.add(newUser)
+                }
             } else {
                 self.displayAlertMessage(userMessage: "Something went wrong")
                 print("error")
@@ -85,5 +94,6 @@ class RegisterViewController: UIViewController {
         }))
         self.present(myAlert, animated: true, completion: nil)
     }
+    
     
 }

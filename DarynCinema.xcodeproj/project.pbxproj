@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		329D89637D62CB12F3990DCE /* Pods_DarynCinemaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F934900221C50C02299DD88B /* Pods_DarynCinemaTests.framework */; };
+		3823344B257F3AF300B6D54E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823344A257F3AF300B6D54E /* User.swift */; };
 		3826EA172539856400A079B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826EA162539856400A079B4 /* AppDelegate.swift */; };
 		3826EA192539856400A079B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826EA182539856400A079B4 /* SceneDelegate.swift */; };
 		3826EA1B2539856400A079B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826EA1A2539856400A079B4 /* ViewController.swift */; };
@@ -28,8 +30,11 @@
 		382CC92E253AE77F00054BFB /* Details2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382CC92D253AE77F00054BFB /* Details2ViewController.swift */; };
 		382CC930253B228E00054BFB /* SFUIDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 382CC92F253B228D00054BFB /* SFUIDisplay-Bold.ttf */; };
 		382CC932253B23A900054BFB /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 382CC931253B23A800054BFB /* SFUIDisplay-Regular.ttf */; };
-		38AFDB6C256370D6006B5A06 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AFDB6B256370D6006B5A06 /* ExampleViewController.swift */; };
-		7F96096065491AB0C833F9FD /* libPods-DarynCinema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A94BAB387A499F80CFF07251 /* libPods-DarynCinema.a */; };
+		382ED75F257F9AF3001326BC /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382ED75E257F9AF3001326BC /* EditProfileViewController.swift */; };
+		382ED761257FB3CC001326BC /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382ED760257FB3CC001326BC /* AlertService.swift */; };
+		38C86281257FE78A006A513A /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C86280257FE78A006A513A /* Movies.swift */; };
+		4E2BEECB65A38CAFAD1B3D8F /* Pods_DarynCinema.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B2AA85D64DE9122D32A3BD /* Pods_DarynCinema.framework */; };
+		950BFF546175D66A0586857B /* Pods_DarynCinema_DarynCinemaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB46DD4238951AA0D5233A7A /* Pods_DarynCinema_DarynCinemaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19B2AA85D64DE9122D32A3BD /* Pods_DarynCinema.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarynCinema.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3823344A257F3AF300B6D54E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3826EA132539856400A079B4 /* DarynCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarynCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3826EA162539856400A079B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3826EA182539856400A079B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,10 +84,17 @@
 		382CC92D253AE77F00054BFB /* Details2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details2ViewController.swift; sourceTree = "<group>"; };
 		382CC92F253B228D00054BFB /* SFUIDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		382CC931253B23A800054BFB /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; };
-		38AFDB6B256370D6006B5A06 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		382ED75E257F9AF3001326BC /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		382ED760257FB3CC001326BC /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		38C86280257FE78A006A513A /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		3A91D8092CBE19BAEFCBE3DC /* Pods-DarynCinema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarynCinema.release.xcconfig"; path = "Target Support Files/Pods-DarynCinema/Pods-DarynCinema.release.xcconfig"; sourceTree = "<group>"; };
+		9A33E44815BAB7800954FF0D /* Pods-DarynCinemaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarynCinemaTests.debug.xcconfig"; path = "Target Support Files/Pods-DarynCinemaTests/Pods-DarynCinemaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A759D2263002BC59F33D79BD /* Pods-DarynCinema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarynCinema.debug.xcconfig"; path = "Target Support Files/Pods-DarynCinema/Pods-DarynCinema.debug.xcconfig"; sourceTree = "<group>"; };
-		A94BAB387A499F80CFF07251 /* libPods-DarynCinema.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DarynCinema.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30E038C4FE94B79494431B5 /* Pods-DarynCinema-DarynCinemaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarynCinema-DarynCinemaUITests.release.xcconfig"; path = "Target Support Files/Pods-DarynCinema-DarynCinemaUITests/Pods-DarynCinema-DarynCinemaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7A0EA56E89A9DD0E02E6B3D /* Pods-DarynCinemaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarynCinemaTests.release.xcconfig"; path = "Target Support Files/Pods-DarynCinemaTests/Pods-DarynCinemaTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB46DD4238951AA0D5233A7A /* Pods_DarynCinema_DarynCinemaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarynCinema_DarynCinemaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D839ECE3937631BC38B601A2 /* Pods-DarynCinema-DarynCinemaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarynCinema-DarynCinemaUITests.debug.xcconfig"; path = "Target Support Files/Pods-DarynCinema-DarynCinemaUITests/Pods-DarynCinema-DarynCinemaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F934900221C50C02299DD88B /* Pods_DarynCinemaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarynCinemaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F96096065491AB0C833F9FD /* libPods-DarynCinema.a in Frameworks */,
+				4E2BEECB65A38CAFAD1B3D8F /* Pods_DarynCinema.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329D89637D62CB12F3990DCE /* Pods_DarynCinemaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950BFF546175D66A0586857B /* Pods_DarynCinema_DarynCinemaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +170,10 @@
 				382CC92D253AE77F00054BFB /* Details2ViewController.swift */,
 				382CC92F253B228D00054BFB /* SFUIDisplay-Bold.ttf */,
 				382CC931253B23A800054BFB /* SFUIDisplay-Regular.ttf */,
-				38AFDB6B256370D6006B5A06 /* ExampleViewController.swift */,
+				3823344A257F3AF300B6D54E /* User.swift */,
+				382ED75E257F9AF3001326BC /* EditProfileViewController.swift */,
+				382ED760257FB3CC001326BC /* AlertService.swift */,
+				38C86280257FE78A006A513A /* Movies.swift */,
 			);
 			path = DarynCinema;
 			sourceTree = "<group>";
@@ -182,6 +201,10 @@
 			children = (
 				A759D2263002BC59F33D79BD /* Pods-DarynCinema.debug.xcconfig */,
 				3A91D8092CBE19BAEFCBE3DC /* Pods-DarynCinema.release.xcconfig */,
+				D839ECE3937631BC38B601A2 /* Pods-DarynCinema-DarynCinemaUITests.debug.xcconfig */,
+				B30E038C4FE94B79494431B5 /* Pods-DarynCinema-DarynCinemaUITests.release.xcconfig */,
+				9A33E44815BAB7800954FF0D /* Pods-DarynCinemaTests.debug.xcconfig */,
+				B7A0EA56E89A9DD0E02E6B3D /* Pods-DarynCinemaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -189,7 +212,9 @@
 		990D4554F08B722A06DE74DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A94BAB387A499F80CFF07251 /* libPods-DarynCinema.a */,
+				19B2AA85D64DE9122D32A3BD /* Pods_DarynCinema.framework */,
+				BB46DD4238951AA0D5233A7A /* Pods_DarynCinema_DarynCinemaUITests.framework */,
+				F934900221C50C02299DD88B /* Pods_DarynCinemaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,6 +230,7 @@
 				3826EA0F2539856400A079B4 /* Sources */,
 				3826EA102539856400A079B4 /* Frameworks */,
 				3826EA112539856400A079B4 /* Resources */,
+				1F961D4FF46CBC8DE0684CF0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3826EA402539856700A079B4 /* Build configuration list for PBXNativeTarget "DarynCinemaTests" */;
 			buildPhases = (
+				828BFDEF4403F34A1B8DD21F /* [CP] Check Pods Manifest.lock */,
 				3826EA252539856700A079B4 /* Sources */,
 				3826EA262539856700A079B4 /* Frameworks */,
 				3826EA272539856700A079B4 /* Resources */,
@@ -237,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3826EA432539856700A079B4 /* Build configuration list for PBXNativeTarget "DarynCinemaUITests" */;
 			buildPhases = (
+				4ED820B211D876929CB0AB21 /* [CP] Check Pods Manifest.lock */,
 				3826EA302539856700A079B4 /* Sources */,
 				3826EA312539856700A079B4 /* Frameworks */,
 				3826EA322539856700A079B4 /* Resources */,
+				4D9B0417DD5715050DBCD819 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,6 +355,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1F961D4FF46CBC8DE0684CF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarynCinema/Pods-DarynCinema-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarynCinema/Pods-DarynCinema-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarynCinema/Pods-DarynCinema-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9B0417DD5715050DBCD819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarynCinema-DarynCinemaUITests/Pods-DarynCinema-DarynCinemaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DarynCinema-DarynCinemaUITests/Pods-DarynCinema-DarynCinemaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DarynCinema-DarynCinemaUITests/Pods-DarynCinema-DarynCinemaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED820B211D876929CB0AB21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarynCinema-DarynCinemaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5AEAB1076102B1B0E785F694 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,6 +433,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		828BFDEF4403F34A1B8DD21F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarynCinemaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -355,14 +462,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3823344B257F3AF300B6D54E /* User.swift in Sources */,
 				3826EA4B2539B38100A079B4 /* ProfileViewController.swift in Sources */,
 				3826EA4D2539C1D800A079B4 /* SearchViewController.swift in Sources */,
-				38AFDB6C256370D6006B5A06 /* ExampleViewController.swift in Sources */,
 				3826EA562539DD0700A079B4 /* MovieTableViewCell.swift in Sources */,
+				382ED761257FB3CC001326BC /* AlertService.swift in Sources */,
 				3826EA5D253A138D00A079B4 /* Details1ViewController.swift in Sources */,
 				3826EA1B2539856400A079B4 /* ViewController.swift in Sources */,
+				382ED75F257F9AF3001326BC /* EditProfileViewController.swift in Sources */,
 				3826EA4F2539D7B400A079B4 /* Models.swift in Sources */,
 				382CC92E253AE77F00054BFB /* Details2ViewController.swift in Sources */,
+				38C86281257FE78A006A513A /* Movies.swift in Sources */,
 				3826EA172539856400A079B4 /* AppDelegate.swift in Sources */,
 				3826EA5A2539F60C00A079B4 /* MoviesListTableViewCell.swift in Sources */,
 				3826EA192539856400A079B4 /* SceneDelegate.swift in Sources */,
@@ -574,6 +684,7 @@
 		};
 		3826EA412539856700A079B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A33E44815BAB7800954FF0D /* Pods-DarynCinemaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -595,6 +706,7 @@
 		};
 		3826EA422539856700A079B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A0EA56E89A9DD0E02E6B3D /* Pods-DarynCinemaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -616,6 +728,7 @@
 		};
 		3826EA442539856700A079B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D839ECE3937631BC38B601A2 /* Pods-DarynCinema-DarynCinemaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -635,6 +748,7 @@
 		};
 		3826EA452539856700A079B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30E038C4FE94B79494431B5 /* Pods-DarynCinema-DarynCinemaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

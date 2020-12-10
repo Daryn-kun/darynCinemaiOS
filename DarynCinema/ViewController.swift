@@ -9,7 +9,11 @@
 import UIKit
 import Alamofire
 import AlamofireObjectMapper
-import SafariServices
+import RealmSwift
+
+var userList: Results<User>!
+var moviesList: Results<Movies>!
+var realm = try! Realm()
 
 class ViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource {
 
@@ -76,7 +80,5 @@ class ViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate
         }
         
     }
-
-
 }
 
